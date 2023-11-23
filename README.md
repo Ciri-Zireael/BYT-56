@@ -5,7 +5,7 @@ Implementation of tasks 5-6 for BYT
 - Used for processing letters (if there are any missing pieces, they get filled with default values)  
 Implementation:  
 Client -> LetterProcessor  
-Handler -> WishHandler  
+Handler -> LetterHandler  
 ConcreteHandlers:  
 -> BaseLetterHandler  
 -> LetterToyHandler  
